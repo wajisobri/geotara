@@ -342,7 +342,7 @@ const AppProfile = () => {
 										<h5 className="f-w-500">  Location<span className="pull-right">:</span></h5>
 									</div>
 									<div className="col-9">
-										<span>Bandung, Indonesia</span>
+										<span>Bandung, Jawabarat, Indonesia</span>
 									</div>
 								</div>
 							</div>
