@@ -48,11 +48,10 @@ const AppProfile = () => {
                 </div>
                 <div className="profile-details">
                   <div className="profile-name px-3 pt-2">
-                    <h4 className="text-primary mb-0">Mitchell C. Shay</h4>
-                    <p>UX / UI Designer</p>
+                    <h4 className="text-primary mb-0">Sitara</h4>
                   </div>
                   <div className="profile-email px-2 pt-2">
-                    <h4 className="text-muted mb-0">hello@email.com</h4>
+                    <h4 className="text-muted mb-0">geotara@email.com</h4>
                     <p>Email</p>
                   </div>
                   <Dropdown className="dropdown ms-auto">
@@ -175,113 +174,7 @@ const AppProfile = () => {
 							</div>
 						</div>
 					</div>
-				</div>	
-				<div className="col-lg-12">
-					<div className="card">
-						<div className="card-header border-0 pb-0">
-							<h5 className="text-primary">Today Highlights</h5>
-						</div>	
-						<div className="card-body pt-3"	>	
-							<div className="profile-blog ">
-								<img  src={profile01}  alt="profile" className="img-fluid  mb-4 w-100 " />
-								<Link to="/post-details"> <h4>Darwin Creative Agency Theme</h4> </Link>
-								<p className="mb-0">
-									A small river named Duden flows by their place and supplies
-									it with the necessary regelialia. It is a paradisematic
-									country, in which roasted parts of sentences fly into your
-									mouth.
-								</p>
-							</div>
-						</div>	
-					</div>
-				</div>
-				<div className="col-lg-12">
-					<div className="card">
-						<div className="card-header border-0 pb-0">
-							<h5 className="text-primary ">Interest</h5>
-						</div>
-						<div className="card-body pt-3">
-							<div className="profile-interest ">
-								 <SRLWrapper options={options}>
-									<div className="row sp4">
-										<div className="col-lg-4 col-xl-4 col-sm-4 col-6 int-col mb-1">
-											<a href={profile02}> <img src={profile02} alt="profileImage" className="img-fluid" /> </a>
-										</div>
-										<div className="col-lg-4 col-xl-4 col-sm-4 col-6 int-col mb-1">
-											<a href={profile03}> <img src={profile03} alt="profile" className="img-fluid"/></a>
-										</div>
-										<div className="col-lg-4 col-xl-4 col-sm-4 col-6 int-col mb-1">
-											<a href={profile04}><img src={profile04} alt="profile" className="img-fluid" /> </a>
-										</div>
-										<div className="col-lg-4 col-xl-4 col-sm-4 col-6 int-col mb-1">
-											{" "}
-											<a href={profile02}><img src={profile02} alt="profile" className="img-fluid" /> </a>
-										</div>
-										<div className="col-lg-4 col-xl-4 col-sm-4 col-6 int-col mb-1">
-											<a href={profile03} className="col-lg-4 col-xl-4 col-sm-4 col-6 int-col" >
-												<img src={profile03} alt="profile"	className="img-fluid"/>	
-											</a>
-										</div>
-										<div className="col-lg-4 col-xl-4 col-sm-4 col-6 int-col mb-1">
-											<a href={profile04}	className="col-lg-4 col-xl-4 col-sm-4 col-6 int-col">
-												<img  src={profile04} alt="profile"	className="img-fluid"/>
-											</a>
-										</div>
-									</div>
-								</SRLWrapper>
-							</div>
-						</div>	
-					</div>
-				</div>	
-				<div className="col-lg-12">
-					<div className="card">
-						<div className="card-header border-0 pb-0">
-							<h5 className="text-primary">Our Latest News</h5>
-						</div>	
-						<div className="card-body pt-3">
-							<div className="profile-news">
-							  <div className="media pt-3 pb-3">
-								<img src={profile05} alt="" className="me-3 rounded" width={75}/>
-								<div className="media-body">
-									<h5 className="m-b-5">
-										<Link to="/post-details" className="text-black">
-											Collection of textile samples
-										</Link>
-									</h5>
-									<p className="mb-0">I shared this on my fb wall a few months back, and I thought. </p>
-								</div>
-							  </div>
-							  <div className="media pt-3 pb-3">
-								<img src={profile06} alt=""  className="me-3 rounded" width={75}/>
-								<div className="media-body">
-									<h5 className="m-b-5">
-										<Link to="/post-details" className="text-black">
-										Collection of textile samples
-										</Link>
-									</h5>
-									<p className="mb-0">
-										I shared this on my fb wall a few months back, and I
-										thought.
-									</p>
-								</div>
-							  </div>
-							  <div className="media pt-3 ">
-								<img src={profile07} alt="" className="me-3 rounded" width={75} />
-								<div className="media-body">
-									<h5 className="m-b-5">
-										<Link to="/post-details" className="text-black">
-											Collection of textile samples
-										</Link>
-									</h5>
-									<p className="mb-0">
-										I shared this on my fb wall a few months back, and I thought.
-									</p>
-								</div>
-							  </div>
-							</div>
-						</div>	
-					</div>
-				</div>	
+				</div>		
 			</div>	
 		</div>	
         <div className="col-xl-8">
@@ -381,44 +274,6 @@ const AppProfile = () => {
 										<span className="me-2"> <i className="fa fa-reply" /></span>Reply
 									</button>
 								</div>
-								<div className="profile-uoloaded-post border-bottom-1 pb-5">
-									<img src={profile09} alt="" className="img-fluid w-100 rounded" />
-									<Link className="post-title" to="/post-details">
-										<h3 className="text-black">Collection of textile samples lay spread</h3>
-									</Link>
-									<p>
-										A wonderful serenity has take possession of my
-										entire soul like these sweet morning of spare which
-										enjoy whole heart.A wonderful serenity has take
-										possession of my entire soul like these sweet
-										morning of spare which enjoy whole heart.
-									</p>
-									<button className="btn btn-primary me-2">
-										<span className="me-2"> <i className="fa fa-heart" /> </span>Like
-									</button>
-									<button className="btn btn-secondary" onClick={() => setReplayModal(true)}>
-										<span className="me-2">  <i className="fa fa-reply" /></span>Reply
-									</button>
-								</div>
-								<div className="profile-uoloaded-post pb-3">
-									<img src={profile08} alt="" className="img-fluid  w-100 rounded" />
-									<Link className="post-title" to="/post-details">
-										<h3 className="text-black">Collection of textile samples lay spread</h3>
-									</Link>
-									<p>
-										A wonderful serenity has take possession of my
-										entire soul like these sweet morning of spare which
-										enjoy whole heart.A wonderful serenity has take
-										possession of my entire soul like these sweet
-										morning of spare which enjoy whole heart.
-									</p>
-									<button className="btn btn-primary me-2">
-										<span className="me-2"><i className="fa fa-heart" /></span>Like
-									</button>
-									<button className="btn btn-secondary" onClick={() => setReplayModal(true)}>
-										<span className="me-2"> <i className="fa fa-reply" /></span>Reply
-									</button>
-								</div>
 								{/* Modal */}
 								<Modal   show={replayModal}onHide={() => setReplayModal(false)} className="modal fade" id="replyModal">										
 									<div className="modal-content">
@@ -444,43 +299,15 @@ const AppProfile = () => {
 								<div className="pt-4 border-bottom-1 pb-3">
 									<h4 className="text-primary">About Me</h4>
 									<p className="mb-2">
-										A wonderful serenity has taken possession of my
-										entire soul, like these sweet mornings of spring
-										which I enjoy with my whole heart. I am alone, and
-										feel the charm of existence was created for the
-										bliss of souls like mine.I am so happy, my dear
-										friend, so absorbed in the exquisite sense of mere
-										tranquil existence, that I neglect my talents.
-									</p>
-									<p>
-										A collection of textile samples lay spread out on
-										the table - Samsa was a travelling salesman - and
-										above it there hung a picture that he had recently
-										cut out of an illustrated magazine and housed in a
-										nice, gilded frame.
+									Geopark Ciletuh-Palabuhanratu memiliki luas 126.100 hektar atau 1.261 km2. Meliputi 74 desa, 
+									di 8 kecamatan yaitu Kecamatan Ciracap, Surade, Ciemas, Waluran, Simpenan, Palabuhanratu, Cikakak, dan Cisolok. 
+									Geopark Ciletuh ditetapkan sebagai Geopark Nasional oleh Komite Geopark Nasional Indonesia (KNGI) 
+									bersama Komite Nasional Indonesia untuk UNESCO (KNIU) pada 22 Desember 2015. 
+									Perluasan dan perubahan nama geopark menjadi Ciletuh-Palabuhanratu diresmikan oleh panitia yang sama pada 21 Juni 2016 
+									dan ditetapkan sebagai UNESCO Global Geopark pada 17 April 2018 dengan tema geopark “Subduction Fossil, Plato Jampang, 
+									Magmatic Path Shift”.
 									</p>
 								</div>
-							</div>
-							<div className="profile-skills mb-5">
-								<h4 className="text-primary mb-2">Skills</h4>
-								<Link to="/app-profile" className="btn btn-primary light btn-xs mb-1 me-1"> Admin</Link>
-								<Link to="/app-profile" className="btn btn-primary light btn-xs mb-1 me-1" > Dashboard</Link>
-								<Link to="/app-profile" className="btn btn-primary light btn-xs mb-1 me-1">Photoshop</Link>
-								<Link to="/app-profile" className="btn btn-primary light btn-xs mb-1 me-1">Bootstrap</Link>
-								<Link to="/app-profile" className="btn btn-primary light btn-xs mb-1 me-1">Responsive</Link>
-								<Link to="/app-profile" className="btn btn-primary light btn-xs mb-1 me-1">Crypto</Link>
-							</div>
-							<div className="profile-lang  mb-5">
-								<h4 className="text-primary mb-2">Language</h4>
-								<Link to="/app-profile" className="text-muted pe-3 f-s-16">
-									<i className="flag-icon flag-icon-us" />English
-								</Link>
-								<Link to="/app-profile" className="text-muted pe-3 f-s-16">
-									<i className="flag-icon flag-icon-fr" />French
-								</Link>
-								<Link to="/app-profile" className="text-muted pe-3 f-s-16">
-									<i className="flag-icon flag-icon-bd" />Bangla
-								</Link>
 							</div>
 							<div className="profile-personal-info">
 								<h4 className="text-primary mb-4">
@@ -491,7 +318,7 @@ const AppProfile = () => {
 										<h5 className="f-w-500"> Name<span className="pull-right">:</span></h5>
 									</div>
 									<div className="col-9">
-										<span>Mitchell C.Shay</span>
+										<span>Geotara</span>
 									</div>
 								</div>
 								<div className="row mb-2">
@@ -499,23 +326,15 @@ const AppProfile = () => {
 										<h5 className="f-w-500">Email<span className="pull-right">:</span></h5>
 									</div>
 									<div className="col-9">
-										<span>example@examplel.com</span>
+										<span>Geotara@Gmail.com</span>
 									</div>
 								</div>
 								<div className="row mb-2">
 									<div className="col-3">
-										<h5 className="f-w-500">  Availability<span className="pull-right">:</span></h5>
+										<h5 className="f-w-500">  Telepon<span className="pull-right">:</span></h5>
 									</div>
 									<div className="col-9">
-										<span>Full Time (Free Lancer)</span>
-									</div>
-								</div>
-								<div className="row mb-2">
-									<div className="col-3">
-										<h5 className="f-w-500">Age<span className="pull-right">:</span></h5>
-									</div>
-									<div className="col-9">
-										<span>27</span>
+										<span>+62 812-345-678</span>
 									</div>
 								</div>
 								<div className="row mb-2">
@@ -523,15 +342,7 @@ const AppProfile = () => {
 										<h5 className="f-w-500">  Location<span className="pull-right">:</span></h5>
 									</div>
 									<div className="col-9">
-										<span>Rosemont Avenue Melbourne, Florida</span>
-									</div>
-								</div>
-								<div className="row mb-2">
-									<div className="col-3">
-										<h5 className="f-w-500">Year Experience<span className="pull-right">:</span></h5>
-									</div>
-									<div className="col-9">
-										<span>07 Year Experiences</span>
+										<span>Bandung, Indonesia</span>
 									</div>
 								</div>
 							</div>

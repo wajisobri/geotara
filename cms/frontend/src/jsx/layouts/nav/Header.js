@@ -247,8 +247,8 @@ const Header = ({ onNote }) => {
 					<Dropdown.Toggle variant="" as="a" className="nav-link i-false c-pointer">
 						<img src={profile} width={20} alt="" />
 						<div className="header-info ms-3">
-							<span>John Doe</span>
-							<small>Superadmin</small>
+							<span>Sitara</span>
+							<small>Admin geotara</small>
 						</div> 
 					</Dropdown.Toggle>
 
