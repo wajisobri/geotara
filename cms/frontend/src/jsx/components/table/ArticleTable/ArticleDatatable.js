@@ -36,6 +36,12 @@ const ArticleDatatable = () => {
       <div className="card">
         <div className="card-header">
           <h4 className="card-title">Daftar Artikel</h4>
+          <Button className="me-2" variant="secondary btn-rounded">
+            <span className="btn-icon-start text-secondary">
+              <i className="fa fa-plus color-secondary" />
+            </span>
+            Add
+          </Button>
         </div>
         <div className="card-body">
           <div className="w-100 table-responsive">
