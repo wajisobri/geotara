@@ -94,6 +94,8 @@ import SortingTable from './components/table/SortingTable/SortingTable';
 import FilteringTable from './components/table/FilteringTable/FilteringTable';
 import DataTable from './components/table/DataTable';
 import BootstrapTable from './components/table/BootstrapTable';
+import ArticleTable from './components/table/ArticleTable/dataArticle';
+import AccomodationTable from './components/table/AccomodationTable/dataAccomodation'
 
 /// Form
 import Element from './components/Forms/Element/Element';
@@ -101,6 +103,8 @@ import Wizard from './components/Forms/Wizard/Wizard';
 import SummerNote from './components/Forms/Summernote/SummerNote';
 import Pickers from './components/Forms/Pickers/Pickers';
 import jQueryValidation from './components/Forms/jQueryValidation/jQueryValidation';
+import ArticleForm from './components/table/ArticleTable/ArticleForm/ArticleForm';
+import AccomodationForm from './components/table/AccomodationTable/AccomodationForm/AccomodationForm';
 
 /// Pages
 import Registration from './pages/Registration';
@@ -207,12 +211,16 @@ const Markup = () => {
 		{ url: 'form-editor-summernote', component: SummerNote },
 		{ url: 'form-pickers', component: Pickers },
 		{ url: 'form-validation-jquery', component: jQueryValidation },
+		{ url: 'form-article', component: ArticleForm },
+		{ url: 'form-accomodation', component: AccomodationForm },
 
 		/// table
 		{ url: 'table-filtering', component: FilteringTable },
 		{ url: 'table-sorting', component: SortingTable },
 		{ url: 'table-datatable-basic', component: DataTable },
 		{ url: 'table-bootstrap-basic', component: BootstrapTable },
+		{ url: 'article-table', component: ArticleTable },
+		{ url: 'accomodation-table', component: AccomodationTable },
 
 		/// pages
 		{ url: 'page-register', component: Registration },

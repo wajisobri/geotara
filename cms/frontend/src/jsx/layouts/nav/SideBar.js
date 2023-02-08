@@ -611,6 +611,30 @@ const SideBar = () => {
 									Datatable
 								</Link>
 							</li>
+							<li>
+								<Link
+									className={`${
+										path === 'table-datatable-basic'
+											? 'mm-active'
+											: ''
+									}`}
+									to="/article-table"
+								>
+									Article
+								</Link>
+							</li>
+							<li>
+								<Link
+									className={`${
+										path === 'table-datatable-basic'
+											? 'mm-active'
+											: ''
+									}`}
+									to="/accomodation-table"
+								>
+									Accomodation
+								</Link>
+							</li>
 						</ul>
 					</li>
 					<li className={`${pages.includes(path) ? 'mm-active' : ''}`}>
